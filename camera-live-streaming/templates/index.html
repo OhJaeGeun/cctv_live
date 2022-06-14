@@ -9,20 +9,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>sect</title>
+    <title>JAEGEUN CAM</title>
 </head>
 <body>
 <div class="container">
     <div class="row">
         <div class="col-lg-8  offset-lg-2">
-            <h3 class="mt-5">gagagaga</h3>
+            <h3 class="mt-5">LIVE</h3>
             <img src="{{ url_for('video_feed') }}" width="100%">
         </div>
     </div>
 </div>
 <div class = "container2">
-    <button onClick = "location.href=index2.html">move page</button>
-    <button onClick = "window.close()">종료버튼</button>
+    <button onClick = "location.href='index2'" style="float: right;">
+        move page
+    </button>
+    <button onClick = "self.close()" style="float: right;">
+        종료버튼
+    </button>
+
+<div class = "container3">
+    <button onClick = "self.close()" style="float: right;">
+        종료버튼
+    </button>
+</div>    
 </div>
 </body>
 </html>
